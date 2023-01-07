@@ -233,8 +233,6 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim)
 
-![image](https://user-images.githubusercontent.com/292349/210136312-c211f781-6d51-46b0-a265-6098bdbb364d.png)
-
 ## 🚀 Getting Started
 
 This repo contains an example setup for
