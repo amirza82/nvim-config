@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tags
 test.sh
 .luarc.json
@@ -5,3 +6,13 @@ nvim
 
 spell/
 lazy-lock.json
+=======
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+>>>>>>> d8769e1 (feat: initial commit)
