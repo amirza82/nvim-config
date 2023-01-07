@@ -231,49 +231,38 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 =======
 # LazyVim
 
-A starter template for Neovim using [lazy.nvim](https://github.com/folke/lazy.nvim)
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim)
 
 ![image](https://user-images.githubusercontent.com/292349/210136312-c211f781-6d51-46b0-a265-6098bdbb364d.png)
 
-## ✅ Todo
+## 🚀 Getting Started
 
-- [ ] documentation
-- [x] treesitter auto-install seems broken. Switch to `ensure_installed` instead?
-- [x] list all plugins in readme
-- [ ] test all-the-things
+This repo contains an example setup for
+[LazyVim](https://github.com/LazyVim/LazyVim)
+
+You can just clone this repo, or import **LazyVim** in your existing config
+as you can see here [config.lazy](https://github.com/LazyVim/starter/blob/main/lua/config/lazy.lua#L12)
+
+Refer to the comments in the files on how to customize **LazyVim**.
 
 ## File Structure
 
 <pre>
 ~/.config/nvim
 ├── lua
-│   └── lazyvim
-│       ├── config
-│       │   ├── autocmds.lua
-│       │   ├── keymaps.lua
-│       │   ├── lazy.lua
-│       │   ├── options.lua
-│       │   └── settings.lua
-│       ├── plugins
-│       │   ├── lsp
-│       │   │   ├── format.lua
-│       │   │   ├── init.lua
-│       │   │   ├── keymaps.lua
-│       │   │   └── servers.lua
-│       │   ├── coding.lua
-│       │   ├── colorscheme.lua
-│       │   ├── config.lua
-│       │   ├── editor.lua
-│       │   ├── treesitter.lua
-│       │   ├── ui.lua
-│       │   └── util.lua
-│       └── util.lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── example.lua
+│       ├── lsp.lua
+│       └── treesitter.lua
 ├── init.lua
-├── lazy-lock.json
-├── LICENSE
-├── README.md
 └── stylua.toml
 </pre>
+<<<<<<< HEAD
 
 <!-- plugins:start -->
 
@@ -330,3 +319,5 @@ A starter template for Neovim using [lazy.nvim](https://github.com/folke/lazy.nv
 
 <!-- plugins:end -->
 >>>>>>> fad5d20 (docs: added readme and license)
+=======
+>>>>>>> 00a0c4d (docs: better docs for the starter template)
