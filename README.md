@@ -259,7 +259,7 @@ nvim
 
 Refer to the comments in the files on how to customize **LazyVim**.
 
-## File Structure
+## 📂 File Structure
 
 <pre>
 ~/.config/nvim
