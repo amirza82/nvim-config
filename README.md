@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # kickstart.nvim
 
 ## Introduction
@@ -337,3 +338,9 @@ Refer to the comments in the files on how to customize **LazyVim**.
 =======
 Refer to the [installation](https://lazyvim.github.io/installation) documentation to get started.
 >>>>>>> 83ea4bf (docs: updated readme to point to the installation section of the docs)
+=======
+# 💤 LazyVim
+
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+>>>>>>> 1f4e34a (docs: cleanup)
