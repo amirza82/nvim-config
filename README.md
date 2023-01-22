@@ -235,6 +235,7 @@ A starter template for [LazyVim](https://github.com/LazyVim/LazyVim)
 
 ## 🚀 Getting Started
 
+<<<<<<< HEAD
 This repo contains an example setup for
 [LazyVim](https://github.com/LazyVim/LazyVim)
 
@@ -333,3 +334,6 @@ Refer to the comments in the files on how to customize **LazyVim**.
 >>>>>>> fad5d20 (docs: added readme and license)
 =======
 >>>>>>> 00a0c4d (docs: better docs for the starter template)
+=======
+Refer to the [installation](https://lazyvim.github.io/installation) documentation to get started.
+>>>>>>> 83ea4bf (docs: updated readme to point to the installation section of the docs)
