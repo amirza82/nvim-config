@@ -49,3 +49,6 @@ vim.keymap.set("n", "L", "<cmd>bnext <CR>", { desc = "Move to next buffer" })
 
 -- launch file explorer
 vim.keymap.set("n", "\\", "<cmd>Ex <CR>", { desc = "Open file explorer" })
+
+-- set keymap to delete the buffer
+vim.keymap.set("n", "<leader>x", "<cmd>bd <CR>", { desc = "delete the buffer" })
