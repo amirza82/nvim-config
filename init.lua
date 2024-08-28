@@ -1,9 +1,8 @@
--- import keymaps.lua
-require("config.keymaps")
--- import options
-require("config.options")
-
-
+-- Set <space> as the leader key
+-- See `:help mapleader`
+--  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -40,3 +39,7 @@ require("lazy").setup({
   },
 })
 
+-- import keymaps.lua
+require("config.keymaps")
+-- import options
+require("config.options")

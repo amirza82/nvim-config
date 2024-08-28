@@ -52,3 +52,4 @@ vim.keymap.set("n", "\\", "<cmd>Ex <CR>", { desc = "Open file explorer" })
 
 -- set keymap to delete the buffer
 vim.keymap.set("n", "<leader>x", "<cmd>bd <CR>", { desc = "delete the buffer" })
+print("here")
