@@ -52,4 +52,13 @@ vim.keymap.set("n", "\\", "<cmd>Ex <CR>", { desc = "Open file explorer" })
 
 -- set keymap to delete the buffer
 vim.keymap.set("n", "<leader>x", "<cmd>bd <CR>", { desc = "delete the buffer" })
-print("here")
+vim.keymap.set("n", "<leader>X", "<cmd>bd! <CR>", { desc = "delete the buffer (force)" })
+
+-- toggle lint
+vim.keymap.set("n", "<leader>l", function ()
+	if vim.diagnostic.is_enabled() then
+		vim.diagnostic.enable(false)
+	else
+		vim.diagnostic.enable(true)
+	end
+end, { desc = "toggle lint" })
