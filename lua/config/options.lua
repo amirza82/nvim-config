@@ -69,4 +69,11 @@ vim.opt.scrolloff = 10
 --  See `:help vim.keymap.set()`
 
 
-
+-- configuring :make command
+-- Create an autocommand that triggers after :make finishes
+vim.api.nvim_create_autocmd('QuickFixCmdPost', {
+  pattern = 'make',
+  callback = function()
+    vim.api.nvim_command('cw') -- Open the quickfix window automatically
+  end
+})

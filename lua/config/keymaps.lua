@@ -62,3 +62,8 @@ vim.keymap.set("n", "<leader>l", function ()
 		vim.diagnostic.enable(true)
 	end
 end, { desc = "toggle lint" })
+
+-- move between errors
+vim.keymap.set("n", "<C-n>", "<cmd>cn<CR>", { desc = "Go to next error"})
+vim.keymap.set("n", "<C-p>", "<cmd>cp<CR>", { desc = "Go to previous error"})
+vim.keymap.set("n", "<C-q>", "<cmd>ccl<CR>", { desc = "Close diagnostic window"})
