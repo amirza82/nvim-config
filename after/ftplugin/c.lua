@@ -1,0 +1,6 @@
+-- this is a reminder for me on how to set different behaviours for file types.
+-- confign files in this directory will be loaded after main configuratio files.
+-- to change the shifting width to 4 speces for example, do:
+--
+-- local set = vim.opt_local
+-- set.shiftwidth = 4
