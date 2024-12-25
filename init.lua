@@ -39,7 +39,7 @@ require("lazy").setup({
   },
 })
 
--- import keymaps.lua
-require("config.keymaps")
 -- import options
 require("config.options")
+-- import keymaps.lua
+require("config.keymaps")
