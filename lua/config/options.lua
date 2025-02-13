@@ -80,3 +80,6 @@ vim.api.nvim_create_autocmd('QuickFixCmdPost', {
     vim.api.nvim_command('cw') -- Open the quickfix window automatically
   end
 })
+
+-- Make cursor always thick
+vim.opt.guicursor = ""
