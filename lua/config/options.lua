@@ -83,3 +83,9 @@ vim.api.nvim_create_autocmd('QuickFixCmdPost', {
 
 -- Make cursor always thick
 vim.opt.guicursor = ""
+
+-- bind :W to :w
+vim.api.nvim_create_user_command('W', function()
+    vim.cmd('write')
+end, {})
+
