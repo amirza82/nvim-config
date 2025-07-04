@@ -89,3 +89,9 @@ vim.api.nvim_create_user_command('W', function()
     vim.cmd('write')
 end, {})
 
+-- Netrw
+vim.g.netrw_preview = 1
+vim.g.netrw_keepdir = 1
+vim.g.netrw_alto = 0
+vim.g.netrw_altv = 1
+vim.g.netrw_winsize = 30
